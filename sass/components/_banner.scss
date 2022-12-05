@@ -1,0 +1,43 @@
+.poster{
+background-color:#2F303A;
+padding-top:200px;
+padding-bottom: 200px;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0)), url("../images/foto20.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.banner{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:30px;
+
+  &__tittle{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);  
+  max-width:696px;
+  }
+
+  &__button{
+  background-color: var(--brand-color);
+  display: block;
+  font-family: inherit;
+  border: 2px solid var(--brand-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  align-items: center;
+  text-align:center;
+  padding:10px 41px 10px 42px;
+  }
+}

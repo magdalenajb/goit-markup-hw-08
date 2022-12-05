@@ -1,0 +1,17 @@
+.portfolio{
+padding-top:0px;
+
+&__title{
+  display:none;
+}
+
+&__list{
+display: flex;
+align-items:center;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 30px;
+list-style-type: var(--style-list);
+}
+}

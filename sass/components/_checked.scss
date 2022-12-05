@@ -1,0 +1,45 @@
+
+.checked{
+position:relative;
+
+  &__input{
+  position:absolute;
+  width: 16px;
+  height:15px;
+  top:5px;
+  left:-20px;
+  opacity:0;
+  
+    &:checked ~ .checked__icon{
+    opacity:1;
+    border-color:var(--brand-color);
+    background-color: var(--brand-color);
+ }
+  }
+
+  &  __icon{
+  position:absolute;
+  top:2px;
+  left:-20px;
+  opacity:0;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__border{
+  position:absolute;
+  display:width;
+  width:16px;
+  height:15px;
+  border: 2px solid #212121;
+  border-radius: 4px;
+  left:-20px;
+  top:2px;
+  background-color: transparent;
+}
+}
+
+
+
+

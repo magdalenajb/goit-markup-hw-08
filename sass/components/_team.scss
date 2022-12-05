@@ -1,0 +1,27 @@
+
+.team{
+padding-bottom: 0;
+}
+
+.our-team{
+background-color: #F5F4FA; 
+height: 708px;
+
+&__tittle{
+font-size: 36px;
+line-height: 1.12;
+text-align: center;
+letter-spacing: 0.03em;
+display:block;
+margin-bottom: 50px;
+padding-top:94px;
+}
+
+&__list{
+display:flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+list-style-type: var(--style-list);
+}
+}

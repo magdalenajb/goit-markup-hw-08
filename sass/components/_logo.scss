@@ -1,0 +1,39 @@
+.logo{
+text-decoration: none;
+display: block;
+
+  &__part{
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px ;
+  font-weight: 700 ;
+  color: var(--brand-color);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  }
+  &--sequent{
+  width: 115px;
+  height: 31px;
+  padding-bottom:20px;
+  }
+
+  &--dark-theme{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color:#000000;
+  }
+
+  &--bright-theme{
+  font-family: 'Raleway', sans-serif;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  }
+}

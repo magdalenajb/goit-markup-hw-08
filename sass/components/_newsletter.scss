@@ -1,0 +1,57 @@
+
+.newsletter{
+margin-top:10px;
+margin-left: 8px;
+
+&__header{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom:10px;
+display: flex;
+}
+
+  &__box{
+  display:flex;
+  gap:12px;
+}
+
+&__input{
+background-color: transparent;
+border-radius: 4px;
+border:1px solid rgba(255, 255, 255, 0.3);
+color:var(--primary-color);
+width: 342px;
+height: 50px;
+padding-left:16px;
+
+&::placeholder{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}}
+
+&__button{
+background-color: var(--brand-color);
+color:var(--primary-color);
+cursor:pointer;
+border:0;
+border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+display:flex;
+align-items:center;
+padding:10px 28px 10px 42px;
+gap:24px;
+}
+
+&__icon{
+  fill:var(--primary-color);
+}}

@@ -1,0 +1,11 @@
+.footer{
+padding-top:60px;
+padding-bottom: 60px;
+display: flex;
+background-color:#2F303A;
+
+&__container{
+display: flex;
+gap:70px;
+}
+}

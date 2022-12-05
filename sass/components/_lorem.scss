@@ -1,0 +1,36 @@
+
+.lorem{
+padding-bottom:0px;
+
+  &__invisible{
+  display:none;
+  }
+
+  &__list{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:30px;
+  list-style-type: var(--style-list);
+  }
+
+  &__icon{
+  background-color: #F5F4FA;
+  padding: 25px 100px;
+  margin-bottom:30px; 
+  }
+
+  &__tittle{
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  }
+
+  &__description{
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+  }
+}
