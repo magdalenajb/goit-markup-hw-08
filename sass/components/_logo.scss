@@ -4,6 +4,51 @@ display: block;
 
   &__part{
   font-family: 'Raleway', sans-serif;
+  font-size: 24px ;
+  font-weight: 700 ;
+  color: var(--brand-color);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  align-items: center;
+  }
+
+  &--sequent{
+  text-align: center;
+  }
+
+  &--dark-theme{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color:#000000;
+  }
+
+  &--bright-theme{
+  font-family: 'Raleway', sans-serif;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  align-items: center;
+  }
+}
+
+
+@media screen and (min-width){
+  
+
+.logo{
+text-decoration: none;
+display: block;
+
+  &__part{
+  font-family: 'Raleway', sans-serif;
   font-size: 26px ;
   font-weight: 700 ;
   color: var(--brand-color);
@@ -36,4 +81,4 @@ display: block;
   letter-spacing: 0.03em;
   text-align: left;
   }
-}
+}}

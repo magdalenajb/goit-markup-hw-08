@@ -1,4 +1,8 @@
+.our-activity{
+  display:none;
+}
 
+@media screen and (min-width:1200px){
 .our-activity{
   padding-bottom: 0;
 
@@ -46,4 +50,4 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--primary-color);
 }
-}
+}}

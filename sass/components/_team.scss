@@ -1,3 +1,31 @@
+.team{
+ padding-bottom: 0;   
+}
+
+.our-team{
+background-color: #F5F4FA; 
+height: 622px; 
+
+&__tittle{
+font-size: 28px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top:60px;
+margin-bottom: 30px;
+}
+
+&__list{
+display:flex;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+list-style-type: var(--style-list);
+}
+}
+
+@media screen and(min-width:1200px){
+    
 
 .team{
 padding-bottom: 0;
@@ -24,4 +52,4 @@ justify-content: space-between;
 gap: 30px;
 list-style-type: var(--style-list);
 }
-}
+}}

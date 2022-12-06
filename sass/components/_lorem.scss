@@ -1,5 +1,45 @@
 
 .lorem{
+  padding-bottom:0;
+
+  &__invisible{
+    display:none;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    list-style-type: var(--style-list);
+    gap:30px;
+  }
+  &__icon{
+   background-color: #F5F4FA;
+   margin-bottom:30px; 
+   display:flex;
+   justify-content:center;
+   padding-block: 25px;
+  }
+  &__tittle{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  &__description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  } 
+   }
+
+
+
+@media screen and(min-width:1200px){
+  
+.lorem{
 padding-bottom:0px;
 
   &__invisible{
@@ -33,4 +73,4 @@ padding-bottom:0px;
   letter-spacing: 0.03em;
   color: #757575;
   }
-}
+}}

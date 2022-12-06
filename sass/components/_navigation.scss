@@ -20,7 +20,7 @@ list-style-type:var(--style-list);
   text-decoration: none;
   color:#212121;
   
-    &:hover, .&:focus,
+    &:hover, &:focus,
     .contacts__header:hover, .contacts__header:focus{
     color: var(--brand-color);
     }
