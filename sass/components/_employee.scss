@@ -26,8 +26,18 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.03em;
   color: #757575;
   }
+
+  &__img{
+    width: 90vw;
+  }
 }
 
+@media screen and (min-width: 768px){
+  .employee__img{
+    width:354px;
+    height:374px;
+  }
+}
 
 @media screen and(min-width:1200px){
 .employee{
@@ -56,6 +66,10 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
+  }
+  &__img{
+    width:270px;
+    height:260px;
   }
 }
 }
