@@ -12,13 +12,23 @@
     justify-content:center;
     }
 }
+@media screen and (min-width:768px){
+.footer{
 
+}
+.footer__container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+}
 @media screen and (min-width:1200px){
 .footer{
-padding-top:60px;
-padding-bottom: 60px;
 display: flex;
-background-color:#2F303A;
+
+
 
 &__container{
 display: flex;

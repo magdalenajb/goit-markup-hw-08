@@ -30,6 +30,15 @@ background-color: var(--brand-color);
 }
 }
 
+@media screen and (min-width:768px){
+    .join{
+        margin-top:-50px;
+       margin-left:84px;
+    }
+    .join-us{
+       margin-left:84px;
+    }
+}
 
 @media screen and (min-width:1200px){
 .join{

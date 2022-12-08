@@ -19,6 +19,7 @@ padding-bottom: 20px;
   align-items: center;
   gap:20px;
 }
+
 &__input{
 background-color: transparent;
 border-radius: 4px;
@@ -64,7 +65,11 @@ gap:24px;
 
 }
 
-
+@media screen and(min-width:768px){
+  .newsletter__input{
+    width:450px;
+  }
+}
 
 @media screen and(min-width:1200px) {
   

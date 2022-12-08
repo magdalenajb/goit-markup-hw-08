@@ -35,16 +35,20 @@
   } 
    }
 
-
 @media screen and(min-width:768px){
 .lorem__list{
+  display:flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.lorem__card{
   width:354px;
 }
+
 .lorem__icon{
-padding:25px 142px;
+padding-block:25px;
 }
   
 .lorem__tittle{
@@ -67,6 +71,9 @@ padding-bottom:0px;
   justify-content: space-between;
   gap:30px;
   list-style-type: var(--style-list);
+  }
+  &__card{
+    width: 270px;
   }
 
   &__icon{
