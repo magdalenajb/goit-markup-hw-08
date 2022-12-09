@@ -2,13 +2,12 @@
   display:none;
 }
 
-@media screen and (min-width: 1200px) {
-  
+@media screen and (min-width:768px){
 .navigation{
-display:flex;
+ display:flex;
 list-style: none;
-gap: 46px;
-list-style-type:var(--style-list);
+gap: 60px;
+list-style-type:var(--style-list); 
 
   &__link{
   font-weight: 500;
@@ -39,4 +38,12 @@ list-style-type:var(--style-list);
   border-radius: 2px;
   bottom:-33px;
   left:0;
-}}
+}
+}
+
+@media screen and (min-width: 1200px) {
+  
+.navigation{
+gap: 46px; 
+}
+}

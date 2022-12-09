@@ -36,6 +36,7 @@
    }
 
 @media screen and(min-width:768px){
+
 .lorem__list{
   display:flex;
   flex-direction: row;
@@ -46,10 +47,6 @@
 .lorem__card{
   width:354px;
 }
-
-.lorem__icon{
-padding-block:25px;
-}
   
 .lorem__tittle{
 text-align:left;
@@ -59,11 +56,7 @@ text-align:left;
 @media screen and(min-width:1200px){
   
 .lorem{
-padding-bottom:0px;
-
-  &__invisible{
-  display:none;
-  }
+  padding-top:94px;
 
   &__list{
   display:flex;
@@ -77,16 +70,11 @@ padding-bottom:0px;
   }
 
   &__icon{
-  background-color: #F5F4FA;
   padding: 25px 100px;
-  margin-bottom:30px; 
   }
 
   &__tittle{
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  text-align: center;
   }
 
   &__description{

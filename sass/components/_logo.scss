@@ -44,23 +44,28 @@ display: block;
   }
 }
 
-
-@media screen and (min-width){
-  
-
-.logo{
+@media screen and (min-width:768px){
+  .logo{
 text-decoration: none;
 display: block;
 
+&__mobile{
+  margin-block:0;
+  margin-left: 0;
+}
+
+}}
+
+@media screen and (min-width:1200px){
+  
+  .logo{
+   
+
   &__part{
-  font-family: 'Raleway', sans-serif;
   font-size: 26px ;
-  font-weight: 700 ;
-  color: var(--brand-color);
-  line-height: 1.2;
-  letter-spacing: 0.03em;
   text-align: left;
   }
+
   &--sequent{
   width: 115px;
   height: 31px;
