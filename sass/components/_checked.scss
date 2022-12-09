@@ -1,6 +1,11 @@
-
 .checked{
 position:relative;
+margin-left:20px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #757575;
 
   &__input{
   position:absolute;
@@ -17,7 +22,7 @@ position:relative;
  }
   }
 
-  &  __icon{
+  &__icon{
   position:absolute;
   top:2px;
   left:-20px;
@@ -37,6 +42,14 @@ position:relative;
   left:-20px;
   top:2px;
   background-color: transparent;
+}
+}
+
+@media screen and (min-width:1200px){
+  
+.checked{
+font-size: 14px;
+line-height: 1.7;
 }
 }
 
