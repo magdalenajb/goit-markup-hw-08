@@ -2,10 +2,8 @@
   display:none;
 }
 
-
 @media screen and (min-width: 1200px) {
   
-
 .navigation{
 display:flex;
 list-style: none;
@@ -39,6 +37,6 @@ list-style-type:var(--style-list);
   background-color: var(--brand-color);
   width: 100%;
   border-radius: 2px;
-  bottom: -33px;
+  bottom:-33px;
   left:0;
 }}

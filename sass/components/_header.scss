@@ -1,6 +1,6 @@
 .header{
   background-color:var(--primary-color);
-  
+  border: 1px solid #ECECEC;
 }
 
 .header__menu{
@@ -8,6 +8,26 @@
   justify-content: space-between;
 }
 
+@media screen and (min-width:768px) {
+  
+.header{
+display:flex;
+padding-top: 21px;
+padding-bottom: 21px;
+
+  &__container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+}
+
+.header__menu{
+display:flex;
+align-items: center;
+gap:83px;
+}
+}
 
 @media screen and (min-width: 1200px){
   

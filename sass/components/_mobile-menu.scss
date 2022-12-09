@@ -8,28 +8,112 @@ display:flex;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin: 0;
+  text-align: center;
+  margin-top: 0px;
   padding: 0;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   outline: none;
+
+&:hover,
+&:focus {
+  color:var(--brand-color);
+}
 }
 
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
+.menu-container {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color:var(--primary-color);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-menu .link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:#212121;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+
+  &:focus, &:hover{
+    color: var(--brand-color);
+  }
+  }
+
+  .mobile-telefon{
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color:var(--brand-color);
+  margin-top:302px;
+  }
+
+  .mobile-mail{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-top:32px;
+  }
+
+  .mobile-socialmedia{
+    display:flex;
+    margin-top:64px;
+    gap:10px;
+    list-style-type: var(--style-list);
+  }
+
+  .mobile-socialmedia__link{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+
+  &:nth-child(1){
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right:10px;
+  }
+  &:nth-child(2){
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right:10px;
+  }
+  &:nth-child(3){
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right:10px;
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-@media screen and (min-width:1200px){
+@media screen and (min-width:768px){
 .mobile__nav{
     display:none;
 }
