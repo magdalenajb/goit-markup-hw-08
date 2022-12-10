@@ -32,21 +32,11 @@ gap:83px;
 @media screen and (min-width: 1200px){
   
 .header{
-background-color:var(--primary-color);
-display:flex;
 padding-top: 24px;
 padding-bottom: 25px;
-
-  &__container{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  }
 }
 
 .header__menu{
-display:flex;
-align-items: center;
 gap:93px;
 }
 }

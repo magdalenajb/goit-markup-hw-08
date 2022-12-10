@@ -1,7 +1,6 @@
 .footer{
-    
     background-color:#2F303A;
-    padding-top:60px;
+    padding-top: 60px;
     padding-bottom: 60px;
 
     &__container{
@@ -25,11 +24,14 @@
 @media screen and (min-width:1200px){
 .footer{
 display: flex;
-
+padding-top: 94px;
+padding-bottom: 94px;
 
 &__container{
 display: flex;
+flex-wrap: nowrap;
 gap:70px;
+justify-content: flex-start;
 }
 }}
 
