@@ -3,7 +3,7 @@ padding-inline:40px;
 
 &__title{
 font-size: 20px;
-line-height: 1.15;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.03em;
 margin-top:40px;
@@ -23,7 +23,7 @@ font-family: Roboto;
 font-Weight: 400;
 font-Size: 12px;
 line-height: 1.17;
-width:330px;
+width:calc( (100vw - 30px) - 120px);
 }
 
 & .textarea__comment{
@@ -64,4 +64,7 @@ font-Size: 16px;
 line-height: 20px;
 width:408px;}
 
+.modal-form__title{
+line-height: 1.15;
+}
 }
